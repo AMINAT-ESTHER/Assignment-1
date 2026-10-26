@@ -21,4 +21,11 @@ public class Course {
         double average = (double) studentsPresent / enrolledStudents * 100;
         return average;
     }
+
+    public void CourseStatistics() {
+        System.out.println("Course:" + courseName);
+        System.out.println("Enrolled:" + enrolledStudents);
+        System.out.println("present:" + studentsPresent);
+        System.out.println("Attendance:" + calculateAverageAttendance() + "%");
+    }
 }
