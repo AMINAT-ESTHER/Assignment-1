@@ -28,4 +28,10 @@ public class Course {
         System.out.println("present:" + studentsPresent);
         System.out.println("Attendance:" + calculateAverageAttendance() + "%");
     }
+
+    public static void universityStatistics() {
+        System.out.println("UNIVERSITY-WIDESTATISTICS");
+        System.out.println("totalCourses:" + totalCourses);
+        System.out.println("total students enrolled:" + totalStudentsEnrolled);
+    }
 }
