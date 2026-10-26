@@ -33,5 +33,8 @@ public class Course {
         System.out.println("UNIVERSITY-WIDESTATISTICS");
         System.out.println("totalCourses:" + totalCourses);
         System.out.println("total students enrolled:" + totalStudentsEnrolled);
+
+        double overallAttendance = ((double)totalAttendanceSum / totalStudentsEnrolled) * 100;
+        System.out.println("overall attendance:" + overallAttendance + "%");
     }
 }
