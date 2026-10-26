@@ -11,5 +11,9 @@ public class Course {
         this.courseName = courseName;
         this.enrolledStudents = enrolledStudents;
         this.studentsPresent = studentsPresent;
+
+        totalCourses++;
+        totalStudentsEnrolled += enrolledStudents;
+        totalAttendanceSum += studentsPresent;
     }
 }
