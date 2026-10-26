@@ -16,4 +16,9 @@ public class Course {
         totalStudentsEnrolled += enrolledStudents;
         totalAttendanceSum += studentsPresent;
     }
+
+    public double calculateAverageAttendance() {
+        double average = (double) studentsPresent / enrolledStudents * 100;
+        return average;
+    }
 }
